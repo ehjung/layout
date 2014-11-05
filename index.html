@@ -7,32 +7,31 @@
         <script src="vendors/jquery.easings.min.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
         <script type="text/javascript" src="js/jquery.fullPage.js"></script>
-        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>    
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+</head>
 
-        <style>
-            .section{
-                font-size: 6em;
-                text-align: center;
-            }
-        </style>
-    </head>
-
-    <body>
-
+<body>
     <div id="navigation">
-
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about_me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact_me">Contact Me</a></li>
+        </ul>
     </div>
 
+    <div class="content">
         <div id="fullpage">
-            <div class="section" data-anchor="home">Section 1
+            <div class="section" id="home">Section 1
             </div>
-            <div class="section" data-anchor="about_me">
+            <div class="section" id="about_me">
                 <div class="slide">Section 2 Slide 1</div>
                 <div class="slide">Section 2 Slide 2</div>
                 <div class="slide">Section 2 Slide 3</div>
             </div>
-            <div class="section" data-anchor="projects">Section 3</div>
-            <div class="section" data-anchor="contact_me">Section 4</div>
-        </div>            
-    </body>
-    </html>
+            <div class="section" id="projects">Section 3</div>
+            <div class="section" id="contact_me">Section 4</div>
+        </div>
+    </div>            
+</body>
+</html>
