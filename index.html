@@ -1,1 +1,38 @@
-Hello World
+<!DOCTYPE html>
+ <html>
+<head>
+        <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="vendors/jquery.easings.min.js"></script>
+        <script type="text/javascript" src="jquery.fullPage.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>    
+
+<script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage();
+        });
+    </script>
+
+        <style>
+            .section{
+                font-size: 6em;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div id="fullpage">
+            <div class="section" data-anchor="home">Section 1
+            </div>
+            <div class="section" data-anchor="about_me">
+                <div class="slide">Section 2 Slide 1</div>
+                <div class="slide">Section 2 Slide 2</div>
+                <div class="slide">Section 2 Slide 3</div>
+            </div>
+            <div class="section" data-anchor="projects">Section 3</div>
+            <div class="section" data-anchor="contact_me">Section 4</div>
+        </div>            
+    </body>
+    </html>
