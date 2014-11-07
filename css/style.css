@@ -56,18 +56,55 @@ h2{
 #nav{
 	list-style: none;
 	position: fixed;
-	right: 20px;
+	left: 20px;
 }
 
 #nav li{
-	margin: 0 0 15px 0;	
+	height: 100px;
+	width: 100px;
+	padding-left: 10px;
+	margin-top: 30px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
 }
 
-#header, #intro, #second{
+#nav li:nth-child(1) {
+background-image: url('../images/about_me_button.png');
+}
+#nav li:nth-child(1):hover {
+background-image: url('../images/about_me_button_open.png');
+}
+#nav li:nth-child(2) {
+background-image: url('../images/resume_button.png');
+}
+#nav li:nth-child(2):hover {
+background-image: url('../images/resume_button_open.png');
+}
+#nav li:nth-child(3) {
+background-image: url('../images/projects_button.png');
+}
+#nav li:nth-child(3):hover {
+background-image: url('../images/projects_button_open.png');
+}
+#nav li:nth-child(4) {
+background-image: url('../images/contact_me_button.png');
+}
+#nav li:nth-child(4):hover {
+background-image: url('../images/contact_me_button_open.png');
+}
+#nav a {
+	display: none;
+}
+#nav li:hover > a{
+	display:block;
+	color: white;
+}
+
+#header, #about_me, #projects{
 	width: 100%;
 }
 
-#intro{
+#about_me{
 	background:url('../images/firstBG.jpg') 50% 0 no-repeat fixed;
 	color: white;
 	height: 600px;
@@ -75,7 +112,7 @@ h2{
 	padding: 0;
 }
 
-#second{
+#projects{
 	background: url('../images/secondBG.jpg') 50% 0 no-repeat fixed;
 	color: white;
 	height: 1300px;
@@ -84,7 +121,7 @@ h2{
 	padding: 0;
 }
 
-#second .bg{
+#projects .bg{
 	background: url('../images/trainers.png') 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
@@ -94,14 +131,14 @@ h2{
 	z-index: 200;
 }
 
-#third{
+#resume{
 	background: url('../images/thirdBG.jpg') 50% 0 no-repeat fixed;
 	color: white;
 	height: 650px;
 	padding: 100px 0 0 0;	
 }
 
-#fifth{
+#contact_me{
 	background: #ccc;
 	height: 400px;
 	margin: 0 auto;
