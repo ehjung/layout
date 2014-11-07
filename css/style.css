@@ -105,11 +105,18 @@ background-image: url('../images/contact_me_button_open.png');
 }
 
 #about_me{
-	background:url('../images/firstBG.jpg') 50% 0 no-repeat fixed;
+	background:url('../images/about_bg.png') 50% 0 no-repeat fixed;
 	color: white;
 	height: 600px;
 	margin: 0 auto;
 	padding: 0;
+}
+
+#resume{
+	background: #fff;
+	color: white;
+	height: 650px;
+	padding: 100px 0 0 0;	
 }
 
 #projects{
@@ -129,13 +136,6 @@ background-image: url('../images/contact_me_button_open.png');
 	position: absolute;
 	width: 900px;
 	z-index: 200;
-}
-
-#resume{
-	background: url('../images/thirdBG.jpg') 50% 0 no-repeat fixed;
-	color: white;
-	height: 650px;
-	padding: 100px 0 0 0;	
 }
 
 #contact_me{
