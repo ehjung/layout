@@ -115,13 +115,13 @@ background-image: url('../images/contact_me_button_open.png');
 }
 
 #about_me{
-	background:url('../images/about_bg.png') 50% 50% no-repeat fixed;
-	color: white;
+	background: url('../images/about_bg.png') 50% 0 no-repeat fixed;
+	color: black;
 	height: 600px;
 	margin: 0 auto;
 	padding: 0;
 }
-
+/*
 #about_me .bg{
 	background: url('../images/trainers.png') 50% 0 no-repeat fixed;
 	height: 1300px;
@@ -130,7 +130,7 @@ background-image: url('../images/contact_me_button_open.png');
 	position: absolute;
 	width: 900px;
 	z-index: 200;
-}
+}*/
 
 #resume{
 	background: #fff;
