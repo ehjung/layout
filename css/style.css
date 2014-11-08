@@ -37,6 +37,30 @@ h2{
 	color: #48941A;
 }
 
+.bold_word1 {
+	font-family: 'Rock Salt';
+	font-size: 40px;
+	color: #FE5550;
+}
+
+.bold_word2 {
+	font-family: 'Fredoka One';
+	font-size: 45px;
+	color: #08ABA8;
+}
+
+.bold_word3 {
+	font-family: 'Crafty Girls';
+	font-size: 40px;
+	color: #FE6926;
+}
+
+.bold_word4 {
+	font-family: 'Pacifico';
+	font-size: 40px;
+	color: #99CD00;
+}
+
 .float-left{
 	float: left;	
 	margin: 0 0 0 20px;
@@ -61,8 +85,8 @@ h2{
 }
 
 #nav li{
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 	padding-left: 10px;
 	padding-top: 10px;
 	margin-bottom: 20px;
@@ -71,9 +95,7 @@ h2{
 }
 
 #nav li:hover{
-	width: 100px;
-	padding-left: -20px;
-	left: -50px;
+	width: 175px;
 }
 
 #nav li:nth-child(1) {
@@ -115,11 +137,17 @@ background-image: url('../images/contact_me_button_open.png');
 }
 
 #about_me {
-	background: url('../images/about_bg.png') 25% 0 no-repeat fixed;
+	background-image: url('../images/about_bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 	color: black;
-	height: 911px;
+	height: 700px;
 	margin: 0 auto;
 	padding: 0;
+	font-family: 'Amatic SC';
+	font-size: 40px;
+	color: #414141;
 }
 /*
 #about_me .bg{
@@ -173,7 +201,7 @@ background-image: url('../images/contact_me_button_open.png');
 }
 
 .story .float-left, .story .float-right{
-	padding: 100px 0 0 0;
+	padding: 50px 0 0 0;
 	position: relative;
-	width: 350px;	
+	width: 800px;	
 }
