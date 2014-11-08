@@ -48,7 +48,7 @@ h2{
 	font-size: 40px;
 	color: #08ABA8;
 }
-
+	
 .bold_word3 {
 	font-family: 'Crafty Girls';
 	font-size: 40px;
@@ -57,7 +57,7 @@ h2{
 
 .bold_word4 {
 	font-family: 'Pacifico';
-	font-size: 40px;
+	font-size: 30px;
 	color: #99CD00;
 }
 
@@ -85,8 +85,8 @@ h2{
 }
 
 #nav li{
-	height: 100px;
-	width: 100px;
+	height: 50px;
+	width: 50px;
 	padding-left: 10px;
 	padding-top: 10px;
 	margin-bottom: 20px;
@@ -95,7 +95,7 @@ h2{
 }
 
 #nav li:hover{
-	width: 175px;
+	width: 100px;
 }
 
 #nav li:nth-child(1) {
@@ -129,7 +129,13 @@ background-image: url('../images/contact_me_button_open.png');
 	display:block;
 	color: white;
 	text-decoration: none;
-	vertical-align: middle;
+	height: 50px;
+	width: 100px;
+	outline: 0;
+	font-family: 'Amatic SC';
+	font-size: 40px;
+	text-align: center;
+	margin-left: -5px;
 }
 
 #header, #about_me, #projects{
