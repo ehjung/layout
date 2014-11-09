@@ -157,7 +157,7 @@ background-image: url('../images/contact_me_button_open.png');
 }
 
 #about_me .bg{
-	background: url('../images/trainers.png') 50% 0 no-repeat fixed;
+	background: url('../images/about_trees_bg.png') 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
