@@ -155,7 +155,7 @@ background-image: url('../images/contact_me_button_open.png');
 	font-size: 28px;
 	color: #414141;
 }
-/*
+
 #about_me .bg{
 	background: url('../images/trainers.png') 50% 0 no-repeat fixed;
 	height: 1300px;
@@ -164,13 +164,48 @@ background-image: url('../images/contact_me_button_open.png');
 	position: absolute;
 	width: 900px;
 	z-index: 200;
-}*/
+}
 
 #resume{
-	background: #000;
+	background: #BCD9D5;
 	color: white;
-	height: 650px;
+	height: 900px;
 	padding: 100px 0 0 0;	
+}
+
+#resume h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Helvetica';
+	background-color: #505050;
+	border-radius: 10px;
+}
+
+#resume .left_section {
+	background: white;
+	border-radius: 25px;
+	margin-left: 200px;
+	margin-right: 200px;
+	width: 350px;
+	word-wrap: break-word;
+}
+
+#resume .text_blobs li {
+	display: inline-block;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	background-color: #414141;
+	border-radius: 25px;
+	font-family: 'Helvetica';
+	font-size: 18px;
+	margin-right: 6px;
+	margin-bottom: 5px;
+
+}
+
+#resume .right_section {
+	background: white;
+	display: inline;
 }
 
 #projects{
