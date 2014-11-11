@@ -136,7 +136,7 @@ background-image: url('../images/contact_me_button_open.png');
 	font-family: 'Amatic SC';
 	font-size: 40px;
 	text-align: center;
-	margin-left: -5px;
+	padding-top: 5px;
 }
 
 #header, #about_me, #projects{
@@ -144,10 +144,10 @@ background-image: url('../images/contact_me_button_open.png');
 }
 
 #about_me {
-	background: url('../images/trees_bg.png');
-	background-size: cover;
+	background: url('https://raw.githubusercontent.com/ehjung/ehjung.github.io/master/images/trees_bg.png');
+	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center bottom;
 	color: black;
 	height: 600px;
 	margin: 0 auto;
