@@ -143,10 +143,14 @@ background-image: url('../images/contact_me_button_open.png');
 	width: 100%;
 }
 
-#separator {
+#separator {	
+	background-image: url('https://raw.githubusercontent.com/ehjung/ehjung.github.io/master/images/separator.png');
+	background-size: contain;
+	background-repeat: repeat no-repeat;
+	height: 20px;
 	width: 100%;
-	background: url('../images/separator.png');
-	height: 25px;
+	border-top: thin dotted #776C50;
+	border-bottom: thin dotted #776C50;
 }
 
 #about_me {
