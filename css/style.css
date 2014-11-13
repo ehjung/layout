@@ -209,8 +209,7 @@ background-image: url('../images/contact_me_button_open.png');
 	display: inline;
 }
 
-#projects{
-	background: url('../images/projects_section_bg.png');
+#projects {
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -218,14 +217,8 @@ background-image: url('../images/contact_me_button_open.png');
 	padding: 0;
 }
 
-#projects .bg{
-	background: url('../images/trainers.png') 50% 0 no-repeat fixed;
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 900px;
-	z-index: 200;
+#myCarousel {
+	/*padding-top: 25px;*/
 }
 
 #contact_me{
