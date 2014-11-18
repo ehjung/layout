@@ -1,6 +1,5 @@
 body{
 	margin: 0;
-	min-width: 980px;
 	padding: 0;
 	width: 100%;
 	height: 100%;
@@ -140,7 +139,7 @@ background-image: url('../images/contact_me_button_open.png');
 	padding-top: 5px;
 }
 
-#header, #about_me, #projects{
+#header, #projects{
 	width: 100%;
 }
 
@@ -155,25 +154,36 @@ background-image: url('../images/contact_me_button_open.png');
 }
 
 #about_me {
-	background: url('https://raw.githubusercontent.com/ehjung/ehjung.github.io/master/images/trees_bg.png');
-	background-size: 100%;
+	background-image: url('https://raw.githubusercontent.com/ehjung/ehjung.github.io/master/images/trees_bg.png');
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	height: 600px;
-	margin: 0 auto;
-	padding: 0;
 	font-family: 'Amatic SC';
 	font-size: 28px;
 	color: #414141;
-	position: relative;
+	min-height: 300px;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;
 }
 
-#clouds {
-	background: url('https://raw.githubusercontent.com/ehjung/ehjung.github.io/master/images/clouds.png');
-	background-size: 100%;
+#clouds_top {
+	background-image: url('https://raw.githubusercontent.com/ehjung/ehjung.github.io/master/images/clouds_top.png');
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	height: 900px;
+	min-height: 200px;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;
+}
+
+#clouds_bottom {
+	background-image: url('https://raw.githubusercontent.com/ehjung/ehjung.github.io/master/images/clouds_bottom.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	min-height: 200px;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;
 }
 
 #resume{
@@ -220,10 +230,9 @@ background-image: url('../images/contact_me_button_open.png');
 
 #projects {
 	color: white;
-	height: 1300px;
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 0;
+	padding: 200px 0 0 0;
 }
 
 #myCarousel {
@@ -237,18 +246,4 @@ background-image: url('../images/contact_me_button_open.png');
 	background-position: center bottom;
 	height: 400px;
 	margin: 0 auto;
-}
-
-.story{
-	margin: 0 auto;
-	min-width: 980px;
-	overflow: auto;
-	width: 980px;
-}
-
-.story .float-left, .story .float-right{
-	padding: 50px 0 0 50px;
-	position: relative;
-	width: 500px;
-	word-wrap: break-word;	
 }
