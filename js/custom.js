@@ -11,6 +11,7 @@ $(document).ready(function () {
 	//$('#resume').parallax("50%", 0.3);
 	var controller = new ScrollMagic();
 	var scene = new ScrollScene({duration: 100}).setPin("#clouds_top").addTo(controller);
+	var scene2 = new ScrollScene({duration: 100}).setPin("#clouds_bottom").addTo(controller);
 	//var tween = TweenMax.to("#clouds", 0.5, {opacity: 1, top: 0});
 	//var scene = new ScrollScene({triggerElement: "#trigger1"}).setTween(tween).addTo(controller);
 	//scene.addIndicators();
