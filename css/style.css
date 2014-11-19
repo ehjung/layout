@@ -159,7 +159,7 @@ background-image: url('../images/contact_me_button_open.png');
 	background-image: url('https://raw.githubusercontent.com/ehjung/ehjung.github.io/master/images/trees_bg.png');
 	background-repeat: no-repeat;
 	background-position: center center;
-	min-height: 700px;
+	min-height: 1000px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;	
@@ -217,11 +217,16 @@ background-image: url('../images/contact_me_button_open.png');
 	display: inline;
 }
 
+
+/*-------------------- projects --------------------*/
 #projects {
-	color: white;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 200px 0 0 0;
+	background-image: url('https://raw.githubusercontent.com/ehjung/ehjung.github.io/master/images/trunks_bg.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 600px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
 }
 
 #myCarousel {
